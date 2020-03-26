@@ -12,6 +12,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.map {|x| if array.include?(cheese_types) then puts x}
-
+  array.map do|x|
+    if array.include?(cheese_types) then puts x}
+  end
 end
